@@ -1,0 +1,84 @@
+body {
+  min-width: 700px;
+  background-color: #fae9dc;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#data {
+  position: fixed;
+  right: 5em;
+}
+
+#data p {
+  margin: 0;
+  text-align: right;
+  font-size: 160%;
+}
+
+#main {
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 38em;
+  height: 38em;
+  background: #fbbe8f;
+  border: .5em solid #706564;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#main div {
+  position: absolute;
+  background-color: #994a07;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  border: .4em solid #706564;
+}
+
+#start {
+  position: relative;
+  left: -8em;
+  top: 15em;
+}
+
+#finish {
+  position: relative;
+  left: 40em;
+  top: 15em;
+}
+
+#jumpButton {
+  background-color: #9f9f9f;
+  font-size: 150%;
+  display: block;
+  margin: 1em auto;
+  border-radius: .5em;
+  border: .2em solid #ffffff;
+  padding: 1em 2em;
+  transition: background-color 1s ease;
+  
+  -webkit-box-shadow: 0 0 .5em 0 #000000;
+  -moz-box-shadow: 0 0 .5em 0 #000000;
+  box-shadow: 0 0 .5em 0 #000000;
+}
+
+#jumpButton:hover {
+  background-color: #ffff00;
+}
+
+#massage {
+  display: none;
+  position: absolute;
+  width: 8em;
+  padding: .3em;
+  left: 5em;
+  top: 7em;
+  font-size: 200%;
+  color: #9F6000;
+  background-color: #FEEFB3;
+}
