@@ -137,7 +137,7 @@ $(function() {
         score += 10;
       } else {
         score += 50;
-        massage("Greate job, now, come back to the previous seat", 2000);
+        massage("Great job, now, come back to the previous seat", 2000);
         temp = startChair;
         startChair = finishChair;
         finishChair = temp;
